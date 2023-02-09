@@ -8,12 +8,7 @@ const {PORT} = process.env
 
 
 const {User} = require('./models/user')
-// const {Vehicle} = require('./models/vehicle')
-// const {Maintenance} = require('./models/maintenance')
 const {register, login} = require('./controllers/auth')
-// const {createVehicle, getVehicles, getDetails, putVehicle, deleteVehicle} = require('./controllers/vehicles')
-// const {createMaintenace, getMaintenance, putMaintenance, deleteMaintenance} = require('./controllers/maintenance')
-
 
 
 const app = express()
